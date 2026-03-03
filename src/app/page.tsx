@@ -100,22 +100,22 @@ export default function LandingPage() {
           tagAnimation="slide-up"
           testimonials={[
             {
-              id: "1",              name: "Sarah Martinez",              role: "Regular Customer",              testimonial: "The espresso here is absolutely phenomenal. The baristas truly understand coffee craftsmanship. I've been coming here for three years and never had a bad cup.",              imageSrc: "http://img.b2bpic.net/free-photo/young-businesswoman-portrait-office_1262-1506.jpg",              imageAlt: "Sarah Martinez"
+              id: "1",              name: "Sarah Martinez",              role: "Regular Customer",              testimonial: "The espresso here is absolutely phenomenal. The baristas truly understand coffee craftsmanship. I've been coming here for three years and never had a bad cup.",              imageSrc: "http://img.b2bpic.net/free-photo/young-businesswoman-portrait-office_1262-1506.jpg?_wi=1",              imageAlt: "Sarah Martinez"
             },
             {
-              id: "2",              name: "James Chen",              role: "Coffee Enthusiast",              testimonial: "Rainier's Labs has perfected the art of specialty coffee. Every drink is a work of art. The atmosphere is warm and inviting. Highly recommended!",              imageSrc: "http://img.b2bpic.net/free-photo/young-businesswoman-portrait-office_1262-1506.jpg",              imageAlt: "James Chen"
+              id: "2",              name: "James Chen",              role: "Coffee Enthusiast",              testimonial: "Rainier's Labs has perfected the art of specialty coffee. Every drink is a work of art. The atmosphere is warm and inviting. Highly recommended!",              imageSrc: "http://img.b2bpic.net/free-photo/young-businesswoman-portrait-office_1262-1506.jpg?_wi=2",              imageAlt: "James Chen"
             },
             {
-              id: "3",              name: "Emma Rodriguez",              role: "Office Manager",              testimonial: "We order for our team meetings every Friday. The consistency and quality are unmatched. Your baristas truly care about every cup they make.",              imageSrc: "http://img.b2bpic.net/free-photo/young-businesswoman-portrait-office_1262-1506.jpg",              imageAlt: "Emma Rodriguez"
+              id: "3",              name: "Emma Rodriguez",              role: "Office Manager",              testimonial: "We order for our team meetings every Friday. The consistency and quality are unmatched. Your baristas truly care about every cup they make.",              imageSrc: "http://img.b2bpic.net/free-photo/young-businesswoman-portrait-office_1262-1506.jpg?_wi=3",              imageAlt: "Emma Rodriguez"
             },
             {
-              id: "4",              name: "Michael Thompson",              role: "Writer",              testimonial: "I've tried coffee shops across the city, and this is hands down the best. The attention to detail and premium beans make all the difference.",              imageSrc: "http://img.b2bpic.net/free-photo/young-businesswoman-portrait-office_1262-1506.jpg",              imageAlt: "Michael Thompson"
+              id: "4",              name: "Michael Thompson",              role: "Writer",              testimonial: "I've tried coffee shops across the city, and this is hands down the best. The attention to detail and premium beans make all the difference.",              imageSrc: "http://img.b2bpic.net/free-photo/young-businesswoman-portrait-office_1262-1506.jpg?_wi=4",              imageAlt: "Michael Thompson"
             },
             {
-              id: "5",              name: "Lisa Wang",              role: "Designer",              testimonial: "Perfect spot to work or meet friends. The coffee is exceptional, and the vibe is inspiring. Can't imagine my mornings without Rainier's Labs.",              imageSrc: "http://img.b2bpic.net/free-photo/young-businesswoman-portrait-office_1262-1506.jpg",              imageAlt: "Lisa Wang"
+              id: "5",              name: "Lisa Wang",              role: "Designer",              testimonial: "Perfect spot to work or meet friends. The coffee is exceptional, and the vibe is inspiring. Can't imagine my mornings without Rainier's Labs.",              imageSrc: "http://img.b2bpic.net/free-photo/young-businesswoman-portrait-office_1262-1506.jpg?_wi=5",              imageAlt: "Lisa Wang"
             },
             {
-              id: "6",              name: "David Patel",              role: "Entrepreneur",              testimonial: "This is more than a coffee shop—it's a community. The baristas remember your order, and you can taste the passion in every cup. Truly exceptional.",              imageSrc: "http://img.b2bpic.net/free-photo/young-businesswoman-portrait-office_1262-1506.jpg",              imageAlt: "David Patel"
+              id: "6",              name: "David Patel",              role: "Entrepreneur",              testimonial: "This is more than a coffee shop—it's a community. The baristas remember your order, and you can taste the passion in every cup. Truly exceptional.",              imageSrc: "http://img.b2bpic.net/free-photo/young-businesswoman-portrait-office_1262-1506.jpg?_wi=6",              imageAlt: "David Patel"
             }
           ]}
           animationType="slide-up"
