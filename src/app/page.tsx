@@ -18,7 +18,7 @@ export default function LandingPage() {
       borderRadius="soft"
       contentWidth="smallMedium"
       sizing="largeSmallSizeLargeTitles"
-      background="grid"
+      background="noiseDiagonalGradient"
       cardStyle="layered-gradient"
       primaryButtonStyle="radial-glow"
       secondaryButtonStyle="radial-glow"
