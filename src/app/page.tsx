@@ -46,7 +46,7 @@ export default function LandingPage() {
           ]}
           buttonAnimation="slide-up"
           background={{ variant: "sparkles-gradient" }}
-          imageSrc="http://img.b2bpic.net/free-photo/close-up-barista-hands-preparing-coffee-customer-coffee-shop_93675-134687.jpg"
+          imageSrc="http://img.b2bpic.net/free-photo/close-up-barista-hands-preparing-coffee-customer-coffee-shop_93675-134687.jpg?_wi=1"
           imageAlt="Artisan coffee being prepared"
           mediaAnimation="blur-reveal"
           frameStyle="card"
@@ -60,7 +60,7 @@ export default function LandingPage() {
           description="Rainier's Labs was founded on the belief that exceptional coffee comes from passion, precision, and the finest quality beans."
           subdescription="We partner with specialty coffee roasters and direct trade farmers to bring you the most exceptional coffee experience."
           icon={Coffee}
-          imageSrc="http://img.b2bpic.net/free-photo/close-up-barista-hands-preparing-coffee-customer-coffee-shop_93675-134687.jpg"
+          imageSrc="http://img.b2bpic.net/free-photo/close-up-barista-hands-preparing-coffee-customer-coffee-shop_93675-134687.jpg?_wi=2"
           imageAlt="Coffee craftsmanship"
           mediaAnimation="blur-reveal"
           useInvertedBackground={false}
