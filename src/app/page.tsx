@@ -3,7 +3,7 @@
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import HeroLogoBillboard from '@/components/sections/hero/HeroLogoBillboard';
-import TextAbout from '@/components/sections/about/TextAbout';
+import InlineImageSplitTextAbout from '@/components/sections/about/InlineImageSplitTextAbout';
 import ProductCardOne from '@/components/sections/product/ProductCardOne';
 import TestimonialCardTwo from '@/components/sections/testimonial/TestimonialCardTwo';
 import ContactSplit from '@/components/sections/contact/ContactSplit';
@@ -54,11 +54,12 @@ export default function LandingPage() {
       </div>
 
       <div id="about" data-section="about">
-        <TextAbout
-          tag="Our Story"
-          tagIcon={Coffee}
-          tagAnimation="slide-up"
-          title="Crafting the Perfect Cup Since 2015"
+        <InlineImageSplitTextAbout
+          heading={[
+            { type: "text", content: "Our Story: Crafting the Perfect Cup Since " },
+            { type: "image", src: "http://img.b2bpic.net/free-photo/close-up-barista-hands-preparing-coffee-customer-coffee-shop_93675-134687.jpg", alt: "Rainier's Labs coffee craftsmanship" },
+            { type: "text", content: " 2015" }
+          ]}
           useInvertedBackground={false}
           buttons={[
             { text: "Learn More", href: "#menu" }
