@@ -26,7 +26,7 @@ export default function LandingPage() {
     >
       <div id="nav" data-section="nav">
         <NavbarStyleApple
-          brandName="Rainier's Labs"
+          brandName="Rainer's Labs"
           navItems={[
             { name: "About", id: "about" },
             { name: "Menu", id: "menu" },
@@ -38,7 +38,7 @@ export default function LandingPage() {
 
       <div id="hero" data-section="hero">
         <HeroLogoBillboard
-          logoText="Rainier's Labs"
+          logoText="Rainer's Labs"
           description="Exceptional specialty coffee crafted with passion and precision. Experience the art of coffee at its finest."
           buttons={[
             { text: "Visit Us Today", href: "#contact" },
@@ -57,10 +57,10 @@ export default function LandingPage() {
         <TestimonialAboutCard
           tag="Our Story"
           title="Crafting the Perfect Cup Since 2015"
-          description="Rainier's Labs was founded on the belief that exceptional coffee comes from passion, precision, and the finest quality beans."
+          description="Rainer's Labs was founded on the belief that exceptional coffee comes from passion, precision, and the finest quality beans."
           subdescription="We partner with specialty coffee roasters and direct trade farmers to bring you the most exceptional coffee experience."
           icon={Coffee}
-          imageSrc="http://img.b2bpic.net/free-photo/close-up-barista-hands-preparing-coffee-customer-coffee-shop_93675-134687.jpg?_wi=2"
+          imageSrc="http://img.b2bpic.net/free-photo/two-espresso-cups-coffee-engine_140725-5566.jpg?id=7219621"
           imageAlt="Coffee craftsmanship"
           mediaAnimation="blur-reveal"
           useInvertedBackground={false}
@@ -95,7 +95,7 @@ export default function LandingPage() {
       <div id="reviews" data-section="reviews">
         <TestimonialCardTwo
           title="What Our Customers Say"
-          description="Join hundreds of satisfied coffee lovers who trust Rainier's Labs for their daily ritual."
+          description="Join hundreds of satisfied coffee lovers who trust Rainer's Labs for their daily ritual."
           tag="Reviews"
           tagIcon={Star}
           tagAnimation="slide-up"
@@ -104,7 +104,7 @@ export default function LandingPage() {
               id: "1",              name: "Sarah Martinez",              role: "Regular Customer",              testimonial: "The espresso here is absolutely phenomenal. The baristas truly understand coffee craftsmanship. I've been coming here for three years and never had a bad cup.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3APZxmPw1SXapYImZaEdE0dbdPZ/uploaded-1772786005075-n7e44jh9.jpg",              imageAlt: "Sarah Martinez"
             },
             {
-              id: "2",              name: "James Chen",              role: "Coffee Enthusiast",              testimonial: "Rainier's Labs has perfected the art of specialty coffee. Every drink is a work of art. The atmosphere is warm and inviting. Highly recommended!",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3APZxmPw1SXapYImZaEdE0dbdPZ/uploaded-1772786011963-0vz4idrp.jpg",              imageAlt: "James Chen"
+              id: "2",              name: "James Chen",              role: "Coffee Enthusiast",              testimonial: "Rainer's Labs has perfected the art of specialty coffee. Every drink is a work of art. The atmosphere is warm and inviting. Highly recommended!",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3APZxmPw1SXapYImZaEdE0dbdPZ/uploaded-1772786011963-0vz4idrp.jpg",              imageAlt: "James Chen"
             },
             {
               id: "3",              name: "Emma Rodriguez",              role: "Office Manager",              testimonial: "We order for our team meetings every Friday. The consistency and quality are unmatched. Your baristas truly care about every cup they make.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3APZxmPw1SXapYImZaEdE0dbdPZ/uploaded-1772786016120-tohm1764.jpg",              imageAlt: "Emma Rodriguez"
@@ -113,7 +113,7 @@ export default function LandingPage() {
               id: "4",              name: "Michael Thompson",              role: "Writer",              testimonial: "I've tried coffee shops across the city, and this is hands down the best. The attention to detail and premium beans make all the difference.",              imageSrc: "http://img.b2bpic.net/free-photo/person-indian-origin-having-fun_23-2150285283.jpg?id=40125625",              imageAlt: "Michael Thompson"
             },
             {
-              id: "5",              name: "Lisa Wang",              role: "Designer",              testimonial: "Perfect spot to work or meet friends. The coffee is exceptional, and the vibe is inspiring. Can't imagine my mornings without Rainier's Labs.",              imageSrc: "http://img.b2bpic.net/premium-photo/man-portrait-happy-studio-business-relax-confidence-employee-designer-creative-staff-male-person-startup-worker-with-pride-company-job-grey-background_590464-334022.jpg?id=210120801",              imageAlt: "Lisa Wang"
+              id: "5",              name: "Lisa Wang",              role: "Designer",              testimonial: "Perfect spot to work or meet friends. The coffee is exceptional, and the vibe is inspiring. Can't imagine my mornings without Rainer's Labs.",              imageSrc: "http://img.b2bpic.net/premium-photo/man-portrait-happy-studio-business-relax-confidence-employee-designer-creative-staff-male-person-startup-worker-with-pride-company-job-grey-background_590464-334022.jpg?id=210120801",              imageAlt: "Lisa Wang"
             },
             {
               id: "6",              name: "David Patel",              role: "Entrepreneur",              testimonial: "This is more than a coffee shop—it's a community. The baristas remember your order, and you can taste the passion in every cup. Truly exceptional.",              imageSrc: "http://img.b2bpic.net/free-photo/young-businesswoman-portrait-office_1262-1506.jpg?_wi=6",              imageAlt: "David Patel"
@@ -131,12 +131,12 @@ export default function LandingPage() {
           tag="Get in Touch"
           tagIcon={Mail}
           tagAnimation="slide-up"
-          title="Visit Rainier's Labs Today"
+          title="Visit Rainer's Labs Today"
           description="Stop by our café to experience exceptional coffee. We're open daily with a welcoming atmosphere perfect for your coffee moments."
           background={{ variant: "plain" }}
           useInvertedBackground={false}
           imageSrc="http://img.b2bpic.net/free-photo/cute-stylish-family-summer-city_1157-19953.jpg"
-          imageAlt="Rainier's Labs café storefront"
+          imageAlt="Rainer's Labs café storefront"
           mediaAnimation="blur-reveal"
           mediaPosition="right"
           inputPlaceholder="Enter your email"
@@ -170,7 +170,7 @@ export default function LandingPage() {
               ]
             }
           ]}
-          copyrightText="© 2025 Rainier's Labs. All rights reserved."
+          copyrightText="© 2025 Rainer's Labs. All rights reserved."
         />
       </div>
     </ThemeProvider>
