@@ -55,25 +55,15 @@ export default function LandingPage() {
 
       <div id="about" data-section="about">
         <TestimonialAboutCard
-          title="Our Story: Crafting the Perfect Cup Since 2015"
-          description="Rainier's Labs was founded on the belief that exceptional coffee comes from passion, precision, and the finest quality beans. We partner with specialty coffee roasters and direct trade farmers to bring you the most exceptional coffee experience."
-          testimonials={[
-            {
-              id: "1",              name: "Founded with Passion",              role: "2015",              testimonial: "Our journey began with a simple mission: to craft the perfect cup of coffee. From selecting the finest beans to perfecting our brewing techniques, every step matters.",              imageSrc: "http://img.b2bpic.net/free-photo/close-up-barista-hands-preparing-coffee-customer-coffee-shop_93675-134687.jpg",              imageAlt: "Coffee craftsmanship"
-            },
-            {
-              id: "2",              name: "Direct Trade Relationships",              role: "Quality First",              testimonial: "We work directly with specialty coffee roasters and farmers to ensure we're getting the best beans available. This commitment to quality is what sets Rainier's Labs apart.",              imageSrc: "http://img.b2bpic.net/free-photo/front-view-coffee-cocktail-with-ice-coffee-seeds-grey-desk-drink-juice-cocktail_140725-25965.jpg",              imageAlt: "Premium coffee beans"
-            },
-            {
-              id: "3",              name: "Expert Barista Team",              role: "Crafted Daily",              testimonial: "Our baristas are trained to perfection. Each cup is made with meticulous attention to detail and a genuine love for the craft. Your coffee is their art.",              imageSrc: "http://img.b2bpic.net/free-photo/cup-coffee-with-foam-flower_1203-1629.jpg",              imageAlt: "Latte art creation"
-            }
-          ]}
-          animationType="slide-up"
-          textboxLayout="default"
+          tag="Our Story"
+          title="Crafting the Perfect Cup Since 2015"
+          description="Rainier's Labs was founded on the belief that exceptional coffee comes from passion, precision, and the finest quality beans."
+          subdescription="We partner with specialty coffee roasters and direct trade farmers to bring you the most exceptional coffee experience."
+          icon={Coffee}
+          imageSrc="http://img.b2bpic.net/free-photo/close-up-barista-hands-preparing-coffee-customer-coffee-shop_93675-134687.jpg"
+          imageAlt="Coffee craftsmanship"
+          mediaAnimation="blur-reveal"
           useInvertedBackground={false}
-          buttons={[
-            { text: "Learn More", href: "#menu" }
-          ]}
         />
       </div>
 
